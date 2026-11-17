@@ -1,0 +1,26 @@
+
+body {
+ background: #000;
+ color: #fff;
+ margin: 10px;
+
+ }
+input, button {
+ background: #000;
+ color: #fff;
+ border: 1px solid #f00;
+ padding: 4px;
+ }
+
+button:hover, .on { background: #fff; color: #000; }
+
+a { color:#88E788 ; }
+hr { border: 2; border-top: 1px solid #1f3fc4; }
+.err { color: #3a58e0; }
+
+#app { display: flex; gap: 10px; }
+#side { width: 220px; border: 1px solid #f00; padding: 8px; }
+#main { flex: 1; border: 1px solid #f00; padding: 8px; }
+#log { height: 60vh; overflow: auto; border-top: 1px solid #1f3fc4; border-bottom: 1px solid #1f3fc4; margin: 8px 0; }
+.room { display: block; width: 100%; text-align: left; margin-bottom: 4px; }
+#text { width: 50%; }
